@@ -1,0 +1,178 @@
+
+body{
+  background-color: #ececec;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.header li{
+  display: inline;
+  padding: 0 2em;
+}
+
+.header{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  
+
+}
+
+.photo {
+ border-radius: 50%;
+ height: 200px;
+ width: 200px;
+ text-align: center;
+ padding-top: 0;
+ margin-top: 30px red;
+ 
+}
+
+
+
+.oone {
+  width: 50%;
+  margin: 70px auto 70px auto;
+  line-height: 1.5;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mba {
+  line-height: 1.5;
+}
+
+
+
+.skill {
+  
+  margin: auto;
+  text-align: center;
+  line-height: 2;
+  
+}
+
+
+h1 {
+  font-family: 'Merriweather', serif;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #66bfbf;
+}
+
+a {
+  color: #222831;
+  text-decoration: none;
+}
+
+.intro{
+  
+  text-align: center;
+  line-height: 1.5;
+
+
+
+  
+}
+
+.intro h1{
+  margin-bottom: 0;
+}
+
+
+hr {
+  background-color: #ececec;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  width: 6%;
+  opacity: 0.30;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+.table {
+  text-align: center;
+}
+.mba {
+  padding-left: 20px;
+  line-height: 1.5;
+}
+.ex {
+  padding-left: 20px;
+  line-height: 1.5;
+  
+}
+.bdrr{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 10px;
+}
+.company {
+  margin-bottom: 5px;
+  margin-top: 40px;
+}
+.form {
+  
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.getin h2{
+  
+  text-align: center;
+}
+
+
+
+
+/* Copyrighted at the bottom*/
+.Copyrighted {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* just kidding text */
+  .Copyrighted .jk {
+    visibility: hidden;
+    background-color: #ececec;
+    width: 120px;
+    color: #222831;
+    text-align: center;
+    padding: 2px 2px;
+    border-radius: 2px;
+   
+    /* Position the jk text */
+    position: absolute;
+    z-index: 1;
+  }
+.Copyrighted:hover .jk {
+    visibility: visible;
+  }
